@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse de cancer prostate</title>
+</head>
+<body>
+    <h1>Analyse de cancer prostate</h1>
+
+    <!-- Input pour choisir une image -->
+    <input type="file" id="image-input" accept="image/*">
+    
+    <!-- Aperçu de l'image -->
+    <img id="image-preview" style="display: none; max-width: 300px; margin-top: 20px;" alt="Aperçu de l'image">
+
+    <!-- Boutons -->
+    <div style="margin-top: 20px;">
+        <button id="previous-button">Précédent</button>
+        <button id="analyze-button">Analyser</button>
+    </div>
+
+    <!-- Zone pour afficher le résultat -->
+    <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
